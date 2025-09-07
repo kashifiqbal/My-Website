@@ -1,0 +1,158 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* Fonts and colors */
+body{
+  
+  color: rgb(30,30,30);
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  margin: 0px;
+  padding: 0;
+  font-weight: lighter;
+}
+img{
+display: block;
+max-width: 100%;
+height: auto;
+}
+header{
+  height: 100%;
+  padding: 20px 0;
+
+}
+#header-logo a{
+  color:  rgb(237, 3, 49);
+}
+#header-logo{
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+#header-logo a:hover{
+  color: #282838;
+}
+nav{
+  position: absolute;
+  top: 25px;
+  right: 20px;
+
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  /* border: 1px solid #585858; */
+}
+nav ul a{
+  display: inline-block;
+  /* border: 1px solid blue; */
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+  color: #585858;
+}
+h1, h2{
+  font-size: 80px;
+}
+h3{
+  font-size: 30px;
+}
+h2 {
+  font-weight: bold;
+  color: #282838;
+  margin: 0;
+}
+a {
+  color: #282838;
+  text-decoration: none;
+}
+strong{
+  color:  rgb(237, 3, 49);
+}
+a:hover {
+  color:  rgb(237, 3, 49);
+  text-decoration: none;
+}
+
+/* Custom design with classes */
+.container{
+  padding-left: 160px;
+  padding-right: 160px;
+}
+section{
+  padding: 40px 0; 
+}
+#who-i-am{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#who-i-am p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#description{
+  margin-bottom: 40px;
+}
+
+.btn-blue {
+  color: white;
+  background: #282838;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background:rgb(237, 3, 49);
+  color: white;
+  transition: background-color .15s ease-in-out;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  margin: 16px 0px;
+  
+}
+.card-grey {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #ededed;
+  line-height: 1.7;
+}
+.border {
+  margin-right: 100px;
+  line-height: 1.7;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+}
+footer {
+  background: rgb(237, 3, 49);
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: white;
+}
+footer a {
+  color: white;
+  font-size: 32px;
+}
+ 
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+} 
